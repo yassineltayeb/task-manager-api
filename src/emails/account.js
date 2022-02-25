@@ -19,6 +19,7 @@ const sendCancelationEmail = (email, name) => {
         text: `Goodbye, ${name}. I hope to see you back sometime soon.`,
     })
 }
+
 module.exports = {
     sendWelcomeEmail,
     sendCancelationEmail
